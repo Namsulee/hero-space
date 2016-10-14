@@ -11,6 +11,10 @@ using Windows.Storage;                      // 동영상 파일명
 using Windows.Devices.Gpio;                 // GPIO용
 using Windows.Devices.Enumeration;
      
+
+// Add Bongchae 2016.10.15
+// Using GitHub
+
 namespace WEB_PIR
 {
     /// <summary>
