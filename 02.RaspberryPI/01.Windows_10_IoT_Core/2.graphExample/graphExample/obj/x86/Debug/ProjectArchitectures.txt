@@ -1,0 +1,1 @@
+C:\Data\Lattadui\graphExample\graphExample\graphExample.csproj;x86
