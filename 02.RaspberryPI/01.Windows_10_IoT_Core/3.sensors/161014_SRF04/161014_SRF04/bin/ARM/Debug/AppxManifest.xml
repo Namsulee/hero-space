@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp build" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  <!--
+    이 패키지 매니페스트 파일은 빌드 프로세스에 의해 생성됩니다.
+
+    이 파일을 다시 생성하면 변경 내용이 손실됩니다. 이 파일의 오류를 수정하려면 소스 .appxmanifest 파일을 편집하십시오.
+
+    패키지 매니페스트 파일에 대한 자세한 내용은 http://go.microsoft.com/fwlink/?LinkID=241727을 참조하십시오.
+  -->
+  <Identity Name="24e4714b-02df-4f45-bf4f-ae9526ca801c" Publisher="CN=w10_64" Version="1.0.0.0" ProcessorArchitecture="arm" />
+  <mp:PhoneIdentity PhoneProductId="24e4714b-02df-4f45-bf4f-ae9526ca801c" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>161014_SRF04</DisplayName>
+    <PublisherDisplayName>w10_64</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10586.0" MaxVersionTested="10.0.14393.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="KO-KR" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="161014_SRF04.exe" EntryPoint="_161014_SRF04.App">
+      <uap:VisualElements DisplayName="161014_SRF04" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="161014_SRF04" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
+        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+  <build:Metadata>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
+    <build:Item Name="VisualStudio" Version="14.0" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2015" />
+    <build:Item Name="OperatingSystem" Version="10.0.14393.0 (rs1_release.160715-1616)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.25425.1" />
+    <build:Item Name="ProjectGUID" Value="{423EA589-7839-410F-86CA-7C42536D6998}" />
+    <build:Item Name="OptimizingToolset" Value="None" />
+    <build:Item Name="TargetRuntime" Value="Managed" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="14.0.25527.1" />
+    <build:Item Name="MakePri.exe" Version="10.0.14393.33 (rs1_release_sec.160727-1952)" />
+  </build:Metadata>
+</Package>
