@@ -25,6 +25,7 @@ namespace _161014_SRF04
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        LCD lcd;
         private double distance;
         SRF04 ultraSonicDistanceDetector;
         private const int GPIO_TRIGGER = 23;
@@ -34,6 +35,7 @@ namespace _161014_SRF04
             this.InitializeComponent();
             initGPIO();
             initSensor();
+            initLCD();
             loopSensor();
         }
         private void initSensor()
@@ -54,16 +56,25 @@ namespace _161014_SRF04
                 GpioStatus.Text = "GPIO initialization completed";
             }
         }
+        private async void initLCD()
+        {
+            lcd = new LCD(16, 2);
+            await lcd.InitAsync(20, 16, 2, 3, 4, 17);
+            await lcd.clearAsync();
+        }
         private async void loopSensor()
         {
-            while(true)
+            await lcd.clearAsync();
+            lcd.write("U.S. Ranger");
+            while (true)
             {
-                distance = ultraSonicDistanceDetector.GetDistance();
+                distance = Math.Round(ultraSonicDistanceDetector.GetDistance());
                 await Task.Delay(1000);
-                Debug.WriteLine("Distance : " + distance);
-                var task = this.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+                Debug.WriteLine("Distance : " + distance + "cm");
+                lcd.setCursor(0, 1);
+                lcd.WriteLine("Distance : " + distance + "cm"); var task = this.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
                 {
-                    DistanceText.Text = distance.ToString();
+                    DistanceText.Text = "Disatnace : " + distance.ToString() + "cm";
                 });
             }
         }
