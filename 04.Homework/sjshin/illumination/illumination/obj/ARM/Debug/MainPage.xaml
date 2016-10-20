@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="illumination.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:illumination"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:ConnectionId='1' x:Name="button" Content="Button" HorizontalAlignment="Left" Height="27" Margin="156,38,0,0" VerticalAlignment="Top" Width="82"/>
+        <TextBox x:ConnectionId='2' x:Name="textBox" HorizontalAlignment="Left" Height="27" Margin="10,38,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="141"/>
+
+    </Grid>
+</Page>
+

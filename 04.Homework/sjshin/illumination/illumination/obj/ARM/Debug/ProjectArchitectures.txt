@@ -1,0 +1,1 @@
+D:\lada\illumination\illumination\illumination.csproj;arm
