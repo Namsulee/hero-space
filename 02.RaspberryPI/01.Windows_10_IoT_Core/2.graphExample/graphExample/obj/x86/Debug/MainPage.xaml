@@ -16,11 +16,7 @@
                            DependentValueBinding="{Binding Value}"
                            IsSelectionEnabled ="True"/>
 
-        <WinRT_Charting:LineSeries Title="T1"
-                           ItemsSource="{Binding Items}"
-                           IndependentValueBinding="{Binding Name}"
-                           DependentValueBinding="{Binding Value}"
-                           IsSelectionEnabled ="True"/>
+       
         </WinRT_Charting:Chart>
 
     </Grid>

@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>cd8ffc89-45eb-4263-b5a2-ee9bbe6a9535</PackageIdentityName>
     <PackageIdentityPublisher>CN=tankengine</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Data\Lattadui\graphExample\graphExample\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Data\Lattadui\graphExample\graphExample\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-10-14T22:40:50.329</Modified>
+      <Modified>2016-10-21T10:52:37.916</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Data\Lattadui\graphExample\graphExample\bin\x86\Debug\graphExample.exe">
+    <AppxPackagedFile Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\bin\x86\Debug\graphExample.exe">
       <PackagePath>entrypoint\graphExample.exe</PackagePath>
-      <Modified>2016-10-14T22:40:48.118</Modified>
+      <Modified>2016-10-21T10:52:35.891</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tankengine\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -456,45 +456,45 @@
       <PackagePath>WinRTXamlToolkit.dll</PackagePath>
       <Modified>2016-03-03T16:52:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Data\Lattadui\graphExample\graphExample\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2016-10-14T17:01:00.241</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Data\Lattadui\graphExample\graphExample\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-09-20T08:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Data\Lattadui\graphExample\graphExample\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T08:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Data\Lattadui\graphExample\graphExample\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T08:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Data\Lattadui\graphExample\graphExample\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T08:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Data\Lattadui\graphExample\graphExample\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T08:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Data\Lattadui\graphExample\graphExample\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T08:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Data\Lattadui\graphExample\graphExample\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T08:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Data\Lattadui\graphExample\graphExample\bin\x86\Debug\graphExample.xr.xml">
+    <AppxPackagedFile Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\bin\x86\Debug\graphExample.xr.xml">
       <PackagePath>graphExample.xr.xml</PackagePath>
       <Modified>2016-10-14T22:31:46.319</Modified>
     </AppxPackagedFile>
@@ -518,13 +518,13 @@
       <PackagePath>WinRTXamlToolkit\Properties\WinRTXamlToolkit.UWP.rd.xml</PackagePath>
       <Modified>2016-03-03T16:52:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Data\Lattadui\graphExample\graphExample\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-10-14T22:31:52.257</Modified>
+      <Modified>2016-10-21T10:50:58.105</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Data\Lattadui\graphExample\graphExample\bin\x86\Debug\Core\graphExample.exe">
+    <AppxPackagedFile Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\bin\x86\Debug\Core\graphExample.exe">
       <PackagePath>graphExample.exe</PackagePath>
-      <Modified>2016-10-14T22:40:50.127</Modified>
+      <Modified>2016-10-21T10:52:37.589</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

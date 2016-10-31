@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading;
+using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using WinRTXamlToolkit.Controls.DataVisualization.Charting;
 
@@ -12,6 +14,11 @@ namespace graphExample
     /// </summary>
     public sealed partial class MainPage : Page
     {
+
+        private Timer periodicTimer;
+        private int cntIndex;
+        private List<NameValueItem> items1;
+
         public class NameValueItem
         {
             public string Name { get; set; }
@@ -23,7 +30,65 @@ namespace graphExample
         public MainPage()
         {
             this.InitializeComponent();
+            cntIndex = 0;
+
+            drawGraph();
+        }
+
+        private void drawGraph()
+        {
+
+
             // Prepare items for Series[0] which is "T1"
+            periodicTimer = new Timer(TimerCallback, null, 0, 5000);
+            items1 = new List<NameValueItem>();
+        
+           // List<NameValueItem> items1 = new List<NameValueItem>();
+           //items1.Add(new NameValueItem { Name = "Test1", Value = _random.Next(10, 100) });
+           // items1.Add(new NameValueItem { Name = "Test2", Value = _random.Next(10, 200) });
+           // items1.Add(new NameValueItem { Name = "Test3", Value = _random.Next(10, 300) });
+           // items1.Add(new NameValueItem { Name = "Test4", Value = _random.Next(10, 400) });
+           // items1.Add(new NameValueItem { Name = "Test5", Value = _random.Next(10, 500) });
+
+            // Supply items to the series
+           // ((LineSeries)this.LineChart1.Series[0]).ItemsSource = items1;
+           
+
+            // [OPTIONAL] Change Y-Axis range from 0 to 1000 with interval of 250 of Series[0]
+            ((LineSeries)this.LineChart1.Series[0]).DependentRangeAxis =
+               new LinearAxis
+               {
+                   Minimum = 0,
+                   Maximum = 1000,
+                   Orientation = AxisOrientation.Y,
+                   Interval = 250,
+                   ShowGridLines = true
+               };
+
+        
+        }
+        // timer를 실행하는 코드
+        private void TimerCallback(object state)
+        {
+            cntIndex++;
+            items1.Add(new NameValueItem { Name = "name" + cntIndex, Value = _random.Next(10, 500) });
+            // Supply items to the series
+            ((LineSeries)this.LineChart1.Series[0]).ItemsSource = items1;
+        }
+
+        private int getSinValue(double a)
+        {
+            int i;
+            double sinVal;
+            sinVal = Math.Sin(a);
+            i =  (int)sinVal;
+            return i;
+        }
+    }
+}
+
+/*
+ *             // Prepare items for Series[0] which is "T1"
             List<NameValueItem> items1 = new List<NameValueItem>();
             items1.Add(new NameValueItem { Name = "Test1", Value = _random.Next(10, 100) });
             items1.Add(new NameValueItem { Name = "Test2", Value = _random.Next(10, 200) });
@@ -65,6 +130,5 @@ namespace graphExample
                    Interval = 250,
                    ShowGridLines = true
                };
-        }
-    }
-}
+               */
+

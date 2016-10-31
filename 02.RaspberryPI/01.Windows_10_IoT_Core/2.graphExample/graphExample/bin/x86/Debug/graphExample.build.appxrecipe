@@ -10,19 +10,19 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>cd8ffc89-45eb-4263-b5a2-ee9bbe6a9535</PackageIdentityName>
     <PackageIdentityPublisher>CN=tankengine</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Data\Lattadui\graphExample\graphExample\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Data\Lattadui\graphExample\graphExample\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Data\Lattadui\graphExample\graphExample\bin\x86\Debug\graphExample.exe">
+    <AppxPackagedFile Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\bin\x86\Debug\graphExample.exe">
       <PackagePath>entrypoint\graphExample.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tankengine\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -340,37 +340,37 @@
     <AppxPackagedFile Include="C:\Users\tankengine\.nuget\packages\WinRTXamlToolkit.UWP\2.0.0\lib\uap10.0\WinRTXamlToolkit.dll">
       <PackagePath>WinRTXamlToolkit.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Data\Lattadui\graphExample\graphExample\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Data\Lattadui\graphExample\graphExample\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Data\Lattadui\graphExample\graphExample\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Data\Lattadui\graphExample\graphExample\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Data\Lattadui\graphExample\graphExample\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Data\Lattadui\graphExample\graphExample\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Data\Lattadui\graphExample\graphExample\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Data\Lattadui\graphExample\graphExample\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Data\Lattadui\graphExample\graphExample\bin\x86\Debug\graphExample.xr.xml">
+    <AppxPackagedFile Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\bin\x86\Debug\graphExample.xr.xml">
       <PackagePath>graphExample.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
@@ -388,10 +388,10 @@
     <AppxPackagedFile Include="C:\Users\tankengine\.nuget\packages\WinRTXamlToolkit.UWP\2.0.0\lib\uap10.0\WinRTXamlToolkit\Properties\WinRTXamlToolkit.UWP.rd.xml">
       <PackagePath>WinRTXamlToolkit\Properties\WinRTXamlToolkit.UWP.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Data\Lattadui\graphExample\graphExample\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Data\Lattadui\graphExample\graphExample\bin\x86\Debug\Core\graphExample.exe">
+    <AppxPackagedFile Include="C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\bin\x86\Debug\Core\graphExample.exe">
       <PackagePath>graphExample.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

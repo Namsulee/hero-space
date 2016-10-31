@@ -1,1 +1,1 @@
-C:\Data\Lattadui\graphExample\graphExample\graphExample.csproj;x86
+C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\2.graphExample\graphExample\graphExample.csproj;x86
