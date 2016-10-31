@@ -1,0 +1,1 @@
+c:\users\administrator\documents\visual studio 2015\Projects\csharp_webcam\csharp_webcam\csharp_webcam.csproj;arm

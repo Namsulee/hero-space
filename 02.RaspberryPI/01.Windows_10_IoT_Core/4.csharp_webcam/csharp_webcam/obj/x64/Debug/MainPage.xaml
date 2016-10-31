@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="csharp_webcam.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:csharp_webcam"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" RequestedTheme="Dark">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid x:ConnectionId='1' x:Name="DisabledFeedGrid" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Rectangle Margin="10" Stroke="White" StrokeThickness="4" Grid.RowSpan="2"/>
+            <Image x:ConnectionId='5' x:Name="image" HorizontalAlignment="Center" VerticalAlignment="Center" Source="Assets/CameraIcon.png" Margin="50"/>
+            <TextBlock x:ConnectionId='6' x:Name="DisabledText" TextWrapping="Wrap" Text="Not Initialized." HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="1" FontSize="33.333" TextAlignment="Center" Margin="10,0"/>
+        </Grid>
+        <StackPanel x:ConnectionId='2' x:Name="LiveFeedPanel" Margin="0, 10" Grid.Row="0" Grid.Column="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+            <CaptureElement x:ConnectionId='4' x:Name='WebcamFeed'                           />
+        </StackPanel>
+        <StackPanel x:ConnectionId='3' x:Name="AnalysingVisitorGrid" Grid.Column="2" VerticalAlignment="Center" Margin="0,0,30,0" Visibility="Collapsed">
+            <ProgressRing IsActive="True" Width="113" Height="80" Foreground="White" VerticalAlignment="Center" Margin="0,0,0,10"/>
+            <TextBlock VerticalAlignment="Center" FontSize="26.667" Grid.Row="1" Text="Analyzing visitor..." TextWrapping="WrapWholeWords" TextAlignment="Center"/>
+            <TextBlock VerticalAlignment="Center" FontSize="21.333" Grid.Row="1" Text="This may take some time depending on your hardware." TextWrapping="WrapWholeWords" TextAlignment="Center" FontStyle="Italic"/>
+
+        </StackPanel>
+    </Grid>
+  
+</Page>
+
