@@ -96,6 +96,14 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Constants.cs" />
+    <Compile Include="Facial Recognition\FaceApiRecognizer.cs" />
+    <Compile Include="Facial Recognition\FaceApiUtils.cs" />
+    <Compile Include="Facial Recognition\FaceApiWhitelist.cs" />
+    <Compile Include="Facial Recognition\FaceRecognitionException.cs" />
+    <Compile Include="Facial Recognition\HSFace.cs" />
+    <Compile Include="Facial Recognition\HSPerson.cs" />
+    <Compile Include="Facial Recognition\IFaceRecognizer.cs" />
+    <Compile Include="Helpers\OxfordFaceAPIHelper.cs" />
     <Compile Include="Helpers\WebcamHelper.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>

@@ -238,6 +238,18 @@
           "System.Xml.XmlSerializer": "4.0.10"
         }
       },
+      "Microsoft.ProjectOxford.Face/1.2.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Microsoft.ProjectOxford.Face.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Microsoft.ProjectOxford.Face.dll": {}
+        }
+      },
       "Microsoft.VisualBasic/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -276,6 +288,15 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -2064,6 +2085,18 @@
           "System.Xml.XmlSerializer": "4.0.10"
         }
       },
+      "Microsoft.ProjectOxford.Face/1.2.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Microsoft.ProjectOxford.Face.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Microsoft.ProjectOxford.Face.dll": {}
+        }
+      },
       "Microsoft.VisualBasic/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -2102,6 +2135,15 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.any.System.Private.DataContractSerialization/4.1.0": {
@@ -3805,6 +3847,18 @@
           "System.Xml.XmlSerializer": "4.0.10"
         }
       },
+      "Microsoft.ProjectOxford.Face/1.2.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Microsoft.ProjectOxford.Face.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Microsoft.ProjectOxford.Face.dll": {}
+        }
+      },
       "Microsoft.VisualBasic/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -3843,6 +3897,15 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.aot.System.Private.DataContractSerialization/4.1.0": {
@@ -5513,6 +5576,18 @@
           "runtimes/win10-x64/native/_._": {}
         }
       },
+      "Microsoft.ProjectOxford.Face/1.2.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Microsoft.ProjectOxford.Face.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Microsoft.ProjectOxford.Face.dll": {}
+        }
+      },
       "Microsoft.VisualBasic/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -5551,6 +5626,15 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.any.System.Private.DataContractSerialization/4.1.0": {
@@ -7257,6 +7341,18 @@
           "System.Xml.XmlSerializer": "4.0.10"
         }
       },
+      "Microsoft.ProjectOxford.Face/1.2.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Microsoft.ProjectOxford.Face.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Microsoft.ProjectOxford.Face.dll": {}
+        }
+      },
       "Microsoft.VisualBasic/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -7295,6 +7391,15 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.aot.System.Private.DataContractSerialization/4.1.0": {
@@ -8965,6 +9070,18 @@
           "runtimes/win10-x86/native/_._": {}
         }
       },
+      "Microsoft.ProjectOxford.Face/1.2.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Microsoft.ProjectOxford.Face.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Microsoft.ProjectOxford.Face.dll": {}
+        }
+      },
       "Microsoft.VisualBasic/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -9003,6 +9120,15 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.any.System.Private.DataContractSerialization/4.1.0": {
@@ -10709,6 +10835,18 @@
           "System.Xml.XmlSerializer": "4.0.10"
         }
       },
+      "Microsoft.ProjectOxford.Face/1.2.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Microsoft.ProjectOxford.Face.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Microsoft.ProjectOxford.Face.dll": {}
+        }
+      },
       "Microsoft.VisualBasic/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -10747,6 +10885,15 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.aot.System.Private.DataContractSerialization/4.1.0": {
@@ -12753,6 +12900,15 @@
         "runtimes/win81-x86/native/api-ms-win-security-cpwl-l1-1-0.dll"
       ]
     },
+    "Microsoft.ProjectOxford.Face/1.2.1.2": {
+      "sha512": "PMhyyX0efSm/9zfItxVsfR+FMzIoIQz7HUFHHFf4hDnj2BcMXtb+hqebH5TnALR/fNn7x+1Ufmokhw97W2ICiw==",
+      "type": "package",
+      "files": [
+        "Microsoft.ProjectOxford.Face.1.2.1.2.nupkg.sha512",
+        "Microsoft.ProjectOxford.Face.nuspec",
+        "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Microsoft.ProjectOxford.Face.dll"
+      ]
+    },
     "Microsoft.VisualBasic/10.0.0": {
       "sha512": "5BEm2/HAVd97whRlCChU7rmSh/9cwGlZ/NTNe3Jl07zuPWfKQq5TUvVNUmdvmEe8QRecJLZ4/e7WF1i1O8V42g==",
       "type": "package",
@@ -12810,6 +12966,29 @@
         "ref/net46/Microsoft.Win32.Primitives.dll",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._"
+      ]
+    },
+    "Newtonsoft.Json/9.0.1": {
+      "sha512": "U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
+      "type": "package",
+      "files": [
+        "Newtonsoft.Json.9.0.1.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "tools/install.ps1"
       ]
     },
     "runtime.any.System.Private.DataContractSerialization/4.1.0": {
@@ -15497,7 +15676,8 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.1.0"
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.1.0",
+      "Microsoft.ProjectOxford.Face >= 1.2.1.2"
     ],
     "UAP,Version=v10.0": []
   }

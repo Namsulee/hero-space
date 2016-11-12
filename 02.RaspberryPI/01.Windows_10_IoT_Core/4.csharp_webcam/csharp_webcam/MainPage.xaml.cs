@@ -1,4 +1,5 @@
-﻿using System;
+﻿using csharp_webcam.Facial_Recognition;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading.Tasks;
@@ -31,7 +32,9 @@ namespace csharp_webcam
     public sealed partial class MainPage : Page
     {
         private WebcamHelper webcam;
-  
+
+        // Oxford Related Variables:
+        private bool initializedOxford = false;
 
         public MainPage()
         {
@@ -40,9 +43,24 @@ namespace csharp_webcam
             // Causes this page to save its state when navigating to other pages
             NavigationCacheMode = NavigationCacheMode.Enabled;
 
+            if (initializedOxford == false)
+            {
+                // If Oxford facial recognition has not been initialized, attempt to initialize it
+                InitializeOxford();
+            }
+
             LiveFeedPanel.Visibility = Visibility.Visible;
             DisabledFeedGrid.Visibility = Visibility.Collapsed;
 
+        }
+
+        public async void InitializeOxford()
+        {
+            // initializedOxford bool will be set to true when Oxford has finished initialization successfully
+            initializedOxford = await OxfordFaceAPIHelper.InitializeOxford();
+
+            // Populates UI grid with whitelisted visitors
+           // UpdateWhitelistedVisitors();
         }
         /// <summary>
         /// Triggered when webcam feed loads both for the first time and every time page is navigated to.
