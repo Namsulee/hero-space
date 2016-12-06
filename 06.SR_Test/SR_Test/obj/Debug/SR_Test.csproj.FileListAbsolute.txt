@@ -1,0 +1,17 @@
+c:\users\copynull\documents\visual studio 2013\Projects\SR_Test\SR_Test\bin\Debug\SR_Test.exe.config
+c:\users\copynull\documents\visual studio 2013\Projects\SR_Test\SR_Test\bin\Debug\SR_Test.exe
+c:\users\copynull\documents\visual studio 2013\Projects\SR_Test\SR_Test\bin\Debug\SR_Test.pdb
+c:\users\copynull\documents\visual studio 2013\Projects\SR_Test\SR_Test\obj\Debug\SR_Test.Form1.resources
+c:\users\copynull\documents\visual studio 2013\Projects\SR_Test\SR_Test\obj\Debug\SR_Test.Properties.Resources.resources
+c:\users\copynull\documents\visual studio 2013\Projects\SR_Test\SR_Test\obj\Debug\SR_Test.csproj.GenerateResource.Cache
+c:\users\copynull\documents\visual studio 2013\Projects\SR_Test\SR_Test\obj\Debug\SR_Test.exe
+c:\users\copynull\documents\visual studio 2013\Projects\SR_Test\SR_Test\obj\Debug\SR_Test.pdb
+C:\Data\LT_PRJ\06.SR_Test\SR_Test\bin\Debug\SR_Test.exe.config
+C:\Data\LT_PRJ\06.SR_Test\SR_Test\bin\Debug\SR_Test.exe
+C:\Data\LT_PRJ\06.SR_Test\SR_Test\bin\Debug\SR_Test.pdb
+C:\Data\LT_PRJ\06.SR_Test\SR_Test\bin\Debug\Microsoft.Speech.dll
+C:\Data\LT_PRJ\06.SR_Test\SR_Test\obj\Debug\SR_Test.Form1.resources
+C:\Data\LT_PRJ\06.SR_Test\SR_Test\obj\Debug\SR_Test.Properties.Resources.resources
+C:\Data\LT_PRJ\06.SR_Test\SR_Test\obj\Debug\SR_Test.csproj.GenerateResource.Cache
+C:\Data\LT_PRJ\06.SR_Test\SR_Test\obj\Debug\SR_Test.exe
+C:\Data\LT_PRJ\06.SR_Test\SR_Test\obj\Debug\SR_Test.pdb

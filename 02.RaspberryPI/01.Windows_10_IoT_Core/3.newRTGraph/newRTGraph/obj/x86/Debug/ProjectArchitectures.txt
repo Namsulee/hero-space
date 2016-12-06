@@ -1,1 +1,1 @@
-C:\Data\Lattadui\newRTGraph\newRTGraph\newRTGraph.csproj;x86
+C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\3.newRTGraph\newRTGraph\newRTGraph.csproj;x86

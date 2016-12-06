@@ -1,0 +1,1 @@
+C:\Data\LT_PRJ\05.VoiceRecog\RPiVoice\RPiVoice.csproj;x86

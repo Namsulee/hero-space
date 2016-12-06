@@ -1,0 +1,1 @@
+C:\Data\LT_PRJ\02.RaspberryPI\01.Windows_10_IoT_Core\4.VoiceRecognition_test\vr_test\vr_test.csproj;x86

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar
+  version="1.0"
+  xml:lang="en-US"
+  root="Command"
+  xmlns="http://www.w3.org/2001/06/grammar"
+  tag-format="semantics/1.0">
+  <rule id="Command" scope="public">
+    <one-of>
+      <item>computer</item>
+      <item>greeting</item>
+      <item>good morning</item>
+      <item>end</item>
+      <item>note</item>
+      <item>console</item>
+      <item>calc</item>
+      <item>end calc</item>
+    </one-of>
+  </rule>
+</grammar>
