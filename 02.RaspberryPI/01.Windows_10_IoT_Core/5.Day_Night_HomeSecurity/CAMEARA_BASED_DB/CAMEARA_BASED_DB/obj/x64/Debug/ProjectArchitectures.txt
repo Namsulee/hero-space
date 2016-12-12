@@ -1,0 +1,1 @@
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\CAMEARA_BASED_DB\CAMEARA_BASED_DB\CAMEARA_BASED_DB.csproj;x64
